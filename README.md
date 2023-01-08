@@ -3,7 +3,7 @@ Udemy TTD Django Recipe app
 
 # To run linting
 ```sh
-docker-compose run --rm app sh -c "flake8"
+docker-compose run --rm <service_name> sh -c "flake8"
 ```
 
 ## To create `django project` inside container
